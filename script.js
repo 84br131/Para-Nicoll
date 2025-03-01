@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             content.style.transform = 'rotateX(0deg)';
         }, 500);
         isOpen = true;
-        setTimeout(downloadPDF, 30000);
+        setTimeout(downloadPDF, 10000);
     }
 
     function closeEnvelope() {
