@@ -127,7 +127,7 @@ body, html {
     background-color: white;
     padding: 1rem;
     box-sizing: border-box;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     color: #333;
@@ -166,7 +166,6 @@ body, html {
     line-height: 1.5;
 }
 
-/* Nubes */
 .cloud {
     position: fixed;
     background: #fff;
@@ -198,7 +197,6 @@ body, html {
     right: 20px;
 }
 
-/* Posicionamiento de nubes en cuartos de pantalla */
 .cloud:nth-child(1) {
     width: 250px;
     height: 80px;
@@ -231,7 +229,6 @@ body, html {
     animation-delay: -7s;
 }
 
-/* Nube estática inferior con forma más orgánica */
 .bottom-cloud-container {
     position: fixed;
     bottom: -20px;

@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const backgroundHeartsContainer = document.querySelector('.background-hearts');
     let isOpen = false;
 
+    // Crear corazones de fondo
     function createBackgroundHearts() {
         const heart = document.createElement('div');
         heart.className = 'background-heart';
